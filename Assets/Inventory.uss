@@ -1,0 +1,125 @@
+:root {
+}
+
+.inventory-panel {
+    width: 420px;
+    height: 450px;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    align-self: center;
+    margin-top: 10px;
+    padding: 15px;
+    border-left-color: rgb(255, 235, 0);
+    border-right-color: rgb(255, 235, 0);
+    border-top-color: rgb(255, 235, 0);
+    border-bottom-color: rgb(255, 235, 0);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.inventory-title {
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    -unity-text-align: upper-center;
+    margin-bottom: 10px;
+}
+
+.slot-grid {
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: rgb(55, 57, 57);
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 250px;
+}
+
+.info-box {
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin-top: 5px;
+}
+
+.info-text {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+.inventory-slot {
+    background-color: rgb(255, 255, 255);
+    width: 80px;
+    height: 80px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-left-color: rgb(0, 16, 255);
+    border-right-color: rgb(0, 16, 255);
+    border-top-color: rgb(0, 16, 255);
+    border-bottom-color: rgb(0, 16, 255);
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.inventory-slot:hover {
+    background-color: rgb(128, 128, 128);
+    border-color: yellow;
+}
+
+.slot-icon{
+    width:64px;
+    height:64px;
+}
+.slot-label{
+    position:absolute;
+    text-align:center;
+    width:16px;
+    height:16px;
+    right:0px;
+    bottom:2px;
+    -unity-font-style:bold;
+    /*background-color:rgba(80,80,80,0.75);*/
+    /*border-radius : 50%;*/
+    /*border-color:red;*/
+    /*border-width:2px;*/
+    padding:0;
+}
